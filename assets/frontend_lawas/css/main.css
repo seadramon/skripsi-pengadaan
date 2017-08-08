@@ -1,0 +1,197 @@
+/* ######################################################################### */
+/* ##################### CSS RESET by CHANDRA LESMANA  ##################### */
+/* ######################################################################### */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers ----------------------------- */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*	PENGATURAN FONT & BODY ------------------------------------------------- */
+@font-face {
+    font-family: 'proxima_nova-reg';
+    src: url('../fonts/proxima_nova-reg.eot');
+    src: url('../fonts/proxima_nova-reg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova-reg.woff') format('woff'),
+         url('../fonts/proxima_nova-reg.ttf') format('truetype'),
+         url('../fonts/proxima_nova-reg.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'proxima_nova-reglt';
+    src: url('../fonts/proxima_nova-reglt.eot');
+    src: url('../fonts/proxima_nova-reglt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova-reglt.woff') format('woff'),
+         url('../fonts/proxima_nova-reglt.ttf') format('truetype'),
+         url('../fonts/proxima_nova-reglt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'proxima_nova-bold';
+    src: url('../fonts/proxima_nova-bold.eot');
+    src: url('../fonts/proxima_nova-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova-bold.woff') format('woff'),
+         url('../fonts/proxima_nova-bold.ttf') format('truetype'),
+         url('../fonts/proxima_nova-bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'proxima_nova-reglt';
+    src: url('../fonts/proxima_nova-boldlt.eot');
+    src: url('../fonts/proxima_nova-boldlt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova-boldlt.woff') format('woff'),
+         url('../fonts/proxima_nova-boldlt.ttf') format('truetype'),
+         url('../fonts/proxima_nova-boldlt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'proxima_nova-light';
+    src: url('../fonts/proxima_nova-light.eot');
+    src: url('../fonts/proxima_nova-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova-light.woff') format('woff'),
+         url('../fonts/proxima_nova-light.ttf') format('truetype'),
+         url('../fonts/proxima_nova-light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'proxima_nova-lightlt';
+    src: url('../fonts/proxima_nova-lightlt.eot');
+    src: url('../fonts/proxima_nova-lightlt.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova-lightlt.woff') format('woff'),
+         url('../fonts/proxima_nova-lightlt.ttf') format('truetype'),
+         url('../fonts/proxima_nova-lightlt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+	font-family: 'proxima_nova-reg', sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	background: url('../img/mm-bground.png') no-repeat top fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+body:after {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	content: '';
+	background: url('../img/mm-pojokan.png') no-repeat left bottom fixed;
+	background-size: 30%;
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	z-index: -1;
+}
+i { padding: 0 .5rem; }
+a { color: #555; text-decoration: none; }
+ol, ul { list-style: none; }
+table {	border-collapse: collapse; border-spacing: 0;}
+blockquote, q { quotes: none; }
+blockquote:before,
+blockquote:after,
+q:before,
+q:after { content: ''; }
+
+
+
+/*	GLOBAL STYLES ------------------------------------------------------------ */
+
+.wrapper {
+	position: relative;
+	display: block;
+	font-size: 0;
+	width: 1080px;
+	margin: 0 auto;
+}
+
+h1 { font-family: 'proxima_nova-bold', sans-serif; font-size: 3.5rem; }
+h2 { font-family: 'proxima_nova-bold', sans-serif; font-size: 1.75rem; }
+h3 { font-family: 'proxima_nova-bold', sans-serif; font-size: 1.4rem; }
+h4 { font-family: 'proxima_nova-bold', sans-serif; font-size: 1.25rem; }
+h5 { font-family: 'proxima_nova-bold', sans-serif; font-size: 1rem; }
+h6 { font-family: 'proxima_nova-bold', sans-serif; font-size: .9rem; }
+p {
+	font-family: 'proxima_nova-reg', sans-serif;
+	font-size: .9rem;
+	font-style: normal;
+	line-height: 1.25;
+	margin-bottom: 1rem;
+}
+
+.btn {
+	position: relative;
+	display: inline-block;
+	font-size: 1rem;
+	padding: 1rem;
+	background-color: #1478b9;
+	border: none;
+	outline: 0;
+	text-align: center;
+}
+
+.landscape img { width: 100%; height: auto; }
+.portrait img { width: auto; height: 100%;}
+.btn:hover { background-color: #1464a5; }
+.rnd4 { border-radius: 4px; }
+.rnd6 { border-radius: 6px; }
+.rnd8 { border-radius: 8px; }
+.rnd { border-radius: 100px; }
+.elipse { border-radius: 50%; }
+.alert { background-color: #DC3232; color: white; }
+.alert:hover { background-color: #C82828;}
+.success { background-color: #64D264; color: white; }
+.success:hover { background-color: #50C850; }
+.disable { background-color: #C8C8C8; cursor: default; text-shadow: 1px 1px 1px white;}
+
+.red { background-color: #f01e1e; }
+.red:hover { background-color: #be1e1e; }
+.dark-red { background-color: #be1e1e; }
+.yellow { background-color: #ffaf00;}
+.yellow:hover { background-color: #ff8c23; }
+.dark-yellow { background-color: #ff8c23; }
+.green { background-color: #23b450; }
+.green:hover { background-color: #149646; }
+.dark-green { background-color: #149646; }
+.blue { background-color: #1478b9; }
+.blue:hover { background-color: #1464a5; }
+.dark-blue { background-color: #1464a5; }
+.brown { background-color: #916450; }
+
+select {
+	position: relative;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	outline: 0;
+}
+
+

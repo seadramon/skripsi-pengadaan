@@ -1,0 +1,10 @@
+damar@127.0.0.1
+
+SHOW GRANTS FOR damar@127.0.0.1
+
+GRANT SELECT, UPDATE, DELETE ON  bantuin.* TO damar@127.0.0.1
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON bantuin.user TO damar@127.0.0.1
+
+
+

@@ -1,0 +1,103 @@
+id_bank;swift_code;name;status
+2;BRINIDJA;bank rakyat indonesia;publish
+8;BMRIIDJA;bank mandiri;publish
+9;BNINIDJA;bank bni;publish
+11;BDINIDJA;bank danamon;publish
+14;CENAIDJA;bank central asia;publish
+16;IBBKIDJA;maybank indonesia;publish
+19;PINBIDJA;panin bank;publish
+22;BNIAIDJA;cimb niaga;publish
+23;BBIJIDJA;bank uob buana;publish
+28;NISPIDJA;bank ocbc nisp;publish
+31;CITIIDJX;citibank;publish
+37;ARTGIDJA;bank artha graha internasional;publish
+41;HSBCIDJA;hongkong and shanghai banking corp.;publish
+46;DBSBIDJA;dbs indonesia;publish
+50;SCBLIDJX;standard chartered bank;publish
+54;CRLYIDJA;capital indonesia;publish
+61;ANZBIDJX;anz bank;publish
+76;BBAIIDJA;bank bumi arta indonesia;publish
+87;EKONIDJA;bank ekonomi raharja;publish
+113;PDJGIDJ1;bpd jateng;publish
+114;PDJTIDJ1;bank jatim;publish
+115;PDBKIDJ1;bpd jambi;publish
+116;PDACIDJ1;bpd aceh;publish
+117;PDSUIDJ1;bpd sumatra utara;publish
+118;PDSBIDJ1;bank nagari;publish
+119;PDRIIDJA;bpd riau;publish
+120;BSSPIDSP;bpd sumatra selatan;publish
+121;PDLPIDJ1;bpd lampung;publish
+123;PDKBIDJ1;bpd kalimantan barat;publish
+124;PDKTIDJ1;bpd kalimantan timur;publish
+125;PDKGIDJ1;bpd kalimantan tengah;publish
+126;PDWSIDJ1;bank sulselbar;publish
+127;PDWUIDJ1;bpd sulawesi utara;publish
+128;PDNBIDJ1;bpd nusa tenggara barat;publish
+129;ABALIDBS;b.p.d bali/denpasar;publish
+130;PDNTIDJ1;bpd nusa tenggara timur;publish
+131;PDMLIDJ1;bank maluku;publish
+132;PDIJIDJ1;bank papua;publish
+133;PDBKIDJ1;bank bengkulu;publish
+134;PDWGIDJ1;bank sulawesi tengah;publish
+135;PDWRIDJ1;bpd sulawesi tenggara;publish
+145;NUPAIDJ6;bank bnp;publish
+146;SWBAIDJA;bank of india indonesia;publish
+147;MUABIDJA;bank muamalat indonesia;publish
+89;RABOIDJA;rabo bank international;publish
+95;CICTIDJA;jtrust bank;publish
+97;MAYAIDJA;bank mayapada;publish
+110;PDJBIDJA;bank bjb;publish
+111;BDKIIDJ1;bpd dki;publish
+112;PDYKIDJ1;bpd yogyakarta;publish
+122;PDKSIDJ1;bpd kalimantan selatan;publish
+213;TAPEIDJ1;bank tabungan pensiun negara;publish
+422;DJARIDJ1;bank bri syariah;publish
+426;MEGAIDJA;bank mega;publish
+441;BBUKIDJA;bank bukopin;publish
+451;BSMDIDJA;bank syariah mandiri;publish
+472;JSABIDJ1;bank jasa jakarta;publish
+484;HNBNIDJA;bank hana;publish
+485;BUMIIDJA;bank mnc;publish
+494;AGTBIDJA;bank agroniaga;publish
+498;IDMOIDJ1;bank sbi indonesia;publish
+501;ROYBIDJ1;bank royal;publish
+506;BUTGIDJ1;bank syariah mega ind;publish
+513;INPBIDJ1;bank ina perdana;publish
+535;KSEBIDJ1;bank kesejahteraan;publish
+536;SYCAIDJ1;bank uib/bca syariah;publish
+542;ATOSIDJ1;bank artos indonesia;publish
+553;YORAIDJ1;bank mayora;publish
+555;BIDXIDJA;bank index selindo;publish
+558;EKSTIDJ1;bank eksekutif internasional;publish
+559;CNBAIDJ1;bank centratama nasional;publish
+566;VICTIDJ1;bank victoria international;publish
+567;HRDAIDJ1;bank harda internasional;publish
+950;BICNIDJA;commonwealth bank;publish
+503;LFIBIDJ1;bank nationalnobu;publish
+151;MEDHIDS1;bank mestika dharma;publish
+153;SBJKIDJA;bank sinarmas;publish
+157;MASDIDJ1;bank maspion;publish
+161;GNESIDJA;bank ganesha;publish
+167;AWANIDJA;bank qnb indonesia;publish
+200;BTANIDJA;bank tabungan negara;publish
+212;BSDRIDJA;woori saudara;publish
+88;ANTDIDJD;bank antar daerah;publish
+548;MASBIDJ1;bank multiarta sentosa;publish
+42;BOTKIDJX;bank of tokyo-mitsubishi ufj;publish
+425;SYJBIDJ1;bank jabar syariah;publish
+951;"";bank panin syariah;publish
+36;MCORIDJA;bank windu kentjana internasional;publish
+490;YUDBIDJ1;bank yudha bhakti;publish
+405;SWAGIDJ1;bank victoria syariah;publish
+521;SDOBIDJ1;bank bukopin syariah;publish
+523;BDIPIDJ1;bank sahabat sampoerna;publish
+600;"";bpr/lsb;publish
+688;"";bpr ks;publish
+699;"";bpr eka;publish
+777;"";finnet;publish
+789;"";indosat(dompetku);publish
+164;ICBKIDJA;icbc indonesia;publish
+945;FINBIDJA;bank agris;publish
+949;CTCBIDJA;bank ctbc indonesia;publish
+911;"";tcash;publish
+526;LMANIDJ1;bank dinar;publish

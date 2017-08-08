@@ -1,0 +1,13 @@
+{
+    "name": "assets/frontend",
+    "require": {
+        "fortawesome/font-awesome": "^4.6",
+        "mpdf/mpdf": "^6.1"
+    },
+    "authors": [
+        {
+            "name": "Damar",
+            "email": "percival5695@gmail.com"
+        }
+    ]
+}

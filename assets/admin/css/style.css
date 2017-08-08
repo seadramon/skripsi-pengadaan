@@ -1,0 +1,8 @@
+tr.clickRow{
+	cursor:pointer;
+}
+.form-group{
+    display:block;
+    clear:both;
+    width:100%;
+}

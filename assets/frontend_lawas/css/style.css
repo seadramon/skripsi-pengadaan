@@ -1,0 +1,825 @@
+/* TOP MENU ----------------------------------------------------------------- */
+.header {
+	background-color: #e6e6e6;
+	font-size: 0;
+}
+
+.header:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 100%;
+	height: 6px;
+	background-color: #d7d7d7;
+}
+
+.left-menu ul {
+	font-size: 0
+}
+
+.left-menu li {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.left-menu li a {
+	position: relative;
+	display: block;
+	font-size: 1.25rem;
+	line-height: 60px;
+	width: 10rem;
+	height: 60px;
+}
+
+.left-menu li a:before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 100%;
+	height: 6px;
+}
+
+.left-menu li a:hover { color: white; }
+
+.left-menu li:nth-child(1) a:hover,
+.left-menu li:nth-child(1) a:before { background-color: #f01e1e; }
+.left-menu li:nth-child(2) a:hover,
+.left-menu li:nth-child(2) a:before { background-color: #ffaf00; }
+.left-menu li:nth-child(3) a:hover,
+.left-menu li:nth-child(3) a:before { background-color: #23b450; }
+.left-menu li:nth-child(4) a:hover,
+.left-menu li:nth-child(4) a:before { background-color: #1478b9; }
+
+.right-menu {
+	font-size: 0;
+	text-align: right;
+	padding-right: 1.5rem;
+}
+
+.right-menu li {
+	position: relative;
+	display: inline-block;
+	width: 8rem;
+	height: 60px;
+	text-align: center;
+}
+
+.right-menu li a {
+	position: relative;
+	font-size: 1.25rem;
+	line-height: 60px;
+}
+
+.right-menu li a:hover {
+	color: #f01e1e;
+}
+
+.right-menu li:nth-child(1) a {
+	padding: .5rem 2rem;
+	border: 1px solid #555;
+	border-radius: 25px;
+}
+
+.right-menu li:nth-child(1) a:hover {
+	color: white;
+	background-color: #f01e1e;
+	border: none;
+}
+
+
+/* USER/SPG LOGIN ----------------------------------------------------------- */
+.spg-join {
+	position: relative;
+	display: block;
+	margin: 17vh auto;
+}
+
+.mm-logo {
+	display: block;
+	margin: 1rem auto;
+}
+
+.spg-join-form {
+	padding: 1rem;
+	margin: 1rem 0;
+}
+
+.spg-join-form input,
+.spg-mall select {
+	border: 1px solid #ccc;
+	width: 100%;
+	font-size: 1rem;
+	padding: .75rem;
+	margin-bottom: 1rem;
+	border-radius: 6px;
+}
+
+.spg-mall {
+	position: relative;
+	display: block;
+}
+
+.spg-mall:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: '';
+	width: 2.85rem;
+	height: 2.9rem;
+	background-color: #1478b9;
+	z-index: 1;
+	border-radius: 0 6px 6px 0;
+}
+
+.spg-mall:after {
+	position: absolute;
+	top: 1.25rem;
+	right: 1rem;
+	content: '';
+	border-top: .4rem solid white;
+	border-right: .4rem solid transparent;
+	border-bottom: .4rem solid transparent;
+	border-left: .4rem solid transparent;
+	z-index: 2;
+}
+
+.spg-join-form a {
+	color: white;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+/* CUSTOMER REGISTER PAGE --------------------------------------------------- */
+.join {
+	width: 70%;
+	font-size: 0;
+	margin: 20vh auto;
+}
+
+.join-title {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.join-title h1 span {
+	color: #ffaf00;
+	font-size: 5.5rem;
+}
+
+join-form {
+	width: 100%;
+	font-size: 0;
+}
+
+.join-disini,
+.join-atau {
+	font-size: 1.25rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+.join-atau {
+	margin: 0 auto !important;
+	display: block;
+}
+
+.join-disini input {
+	border: 1px solid #ddd;
+	display: block;
+	width: 100%;
+	font-size: 1rem;
+	padding: .75rem;
+	border-radius: 6px;
+	margin: 1rem 0;
+}
+
+.join-disini a {
+	color: white;
+	width: 100%;
+	background-color: #1478b9;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.fesbuk,
+.twitter {
+	position: relative;
+	color: white;
+	display: block;
+	width: 100%;
+	text-align: center;
+	/*padding: .75rem 1rem;*/
+	line-height: 2.75rem;
+	/*padding-left: 3.5rem;*/
+	margin: 1rem 0;
+}
+
+.fesbuk { background-color: #284486; }
+.twitter { background-color: #48b4e5; }
+
+.fesbuk:before,
+.twitter:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: '\f09a';
+	font-family: 'FontAwesome', sans-serif;
+	width: 2.75rem;
+	height: 2.75rem;
+	background-color: #3057a5;
+	text-align: center;
+	line-height: 2.75rem;
+	border-radius: 6px 0 0 6px;
+}
+
+.twitter:before {
+	content: '\f099';
+	background-color: #66cef2;
+}
+
+.bottom-logo {
+	position: absolute;
+	bottom: 3rem;
+	right: 3rem;
+	display: block;
+}
+
+
+/* GAMES PAGE --------------------------------------------------------------- */
+.games-page {
+	width: 90%;
+	font-size: 0;
+	margin: 15vh auto;
+	text-align: center;
+}
+
+text{
+    font-family: 'proxima_nova-bold', sans-serif;
+    font-size:20px;
+    pointer-events:none;
+}
+
+.hidden { display: none; }
+
+.acc-start {
+	margin-top: 4rem
+}
+
+button {
+	border: none;
+	font-size: 1rem;
+	font-weight: 900;
+	font-family: 'proxima_nova-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: .75rem;
+	margin: 1rem 0;
+	width: 40%;
+	outline: none;
+}
+
+.games-page h1 {
+	margin-top: 1rem;
+	margin-bottom: .5rem;
+}
+
+.thankyou {
+	width: 60%;
+	margin: 15vh auto;
+	padding: 3rem;
+	text-align: center;
+	color: #fff;
+	}
+
+	.thankyou h1 {
+		margin: .25em auto;
+	}
+
+.social {
+	margin-top: 2rem;
+	}
+
+	.social > div {
+		display: block;
+		}
+
+	.social a {
+		color: #fff;
+		width: 48.5%;
+		margin: 0 2% 0 0;
+		display: inline-block;
+		margin-bottom: 1rem;
+		padding-left: 2.5rem;
+		}
+
+        .social a:last-child {
+            margin-right: 0;
+            }
+
+    .like-follow {
+        background-color: rgba(255,255,255,.15);
+        border-radius: 6px;
+        padding: .75rem .5rem .5rem .5rem;
+        }
+
+	.fb-like {
+		top: -7px;
+		display: inline-block !important;
+		margin: 0 3rem 0 1rem;
+		-webkit-transform: scale(1.5);
+		   -moz-transform: scale(1.5);
+		    -ms-transform: scale(1.5);
+		     -o-transform: scale(1.5);
+		        transform: scale(1.5);
+		}
+
+    .home-btn {
+        font-size: 1.5rem;
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+        padding: .75rem .5rem;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+        color: #fff;
+        border-radius: 6px;
+        background-color: #ffb002;
+        }
+
+        .home-btn:hover {
+            background-color: #FF8A24;
+            }
+
+
+/* Modal ------------------------------------------------------------------- */
+
+.fancybox-skin {
+    background: transparent !important;
+	}
+
+#gate {
+	background-color: #2f599c;
+	color: #fff;
+	padding: 3rem;
+	}
+
+.result-container {
+	width: 480px;
+	height: 360px;
+	padding: 2rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	}
+
+	#winning { background-color: #ff8c23; }
+	#chance  { background-color: #40A73A; height: 400px; }
+	#zonk	 { background-color: #E6271D; }
+
+.result-container button,
+.result-container a {
+	font-family: "proxima_nova-bold", sans-serif;
+	font-size: 1rem;
+	font-weight: 900;
+	display: inline-block;
+	width: 40%;
+	margin: 1rem 0;
+	padding: .75rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	outline: none;
+	background-color: rgba(0,0,0,.4);
+	}
+
+	#winning button { width: 40%; background-color: rgba(60,0,0,.4); }
+	#zonk button 	{ width: 70%; }
+
+.result-container h3,
+.result-container p {
+	font-size: 1.75rem;
+	margin-bottom: .5rem;
+	}
+
+.result-container h3:after, .result-container h3:before {
+	content: "\f005";
+	font-family: FontAwesome;
+	color: #fff;
+	margin: 0 .75rem;
+	font-size: 1.4rem;
+	}
+
+.result-image {
+	background-color: transparent;
+	background-image: url('../img/result-gift.png');
+	display: block;
+	width: 150px;
+	height: 120px;
+	margin: 0 auto 1rem auto;
+	}
+
+	.chance-image 	 { background-position: -600px 0 }
+	.zonk-image 	 { background-position: -450px 0 }
+	.B-image         { background-position: -300px 0 }
+	.A-image         { background-position: -150px 0 }
+	.Gift-image  	 { background-position: 0px 0	}
+
+.result-container form {
+	display: inline;
+	width: 40%;
+	}
+
+.result-container .action {
+	display: block;
+	}
+
+/* PARTICIPANTS PAGE -------------------------------------------------------- */
+
+body.participant-page {
+    font-family: "proxima_nova-reg", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    position: relative;
+    background: url("../img/mm-bground.png") no-repeat top fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+            background-size: cover;
+    }
+
+
+body.participant-page:after {
+    font-size: 0;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url("../img/mm-pojokan.png") no-repeat left bottom;
+    background-size: 30%;
+    }
+
+body.participant-page .container {
+    height: auto;
+    }
+
+body.participant-page .container .participation {
+    width: 95%;
+    margin: 2rem auto 0 auto;
+    padding-bottom: 6rem;
+    }
+
+body.participant-page .bottom-logo {
+    position: absolute;
+    bottom: .5rem;
+    right: 2.5%;
+    display: block;
+    width: 100px !important;
+    }
+
+    body.participant-page .bottom-logo img {
+        width: 100%;
+        height: auto;
+        }
+
+.participation {
+	position: relative;
+	display: block;
+	font-size: 0;
+	width: 80%;
+	margin: 12.5vh auto;
+}
+
+.participant-status,
+.participant-status div {
+	font-size: 0;
+}
+
+.jumlah {
+    line-height: 2.5rem;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    height: 2.5rem;
+    text-align: center;
+    vertical-align: top;
+    color: white;
+    border-radius: 6px 0 0 6px;
+    background-color: #1478b9;
+    }
+
+.status-desc {
+    font-size: .9rem;
+    line-height: 2.5rem;
+    position: relative;
+    display: inline-block;
+    width: 73%;
+    height: 2.5rem;
+    text-align: center;
+    color: #777;
+    border-radius: 0 6px 6px 0;
+    background-color: white;
+    }
+
+.participant-search {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 1rem 1%;
+    }
+
+.participant-search input[type="search"] {
+    font-family: "proxima_nova-light", sans-serif;
+    font-size: 1rem;
+    width: 28%;
+    margin-right: 1%;
+    padding: .75rem;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    }
+
+.participant-search label {
+    font-size: .9rem;
+    position: relative;
+    }
+
+#datepickerFrom,
+#datepickerTo {
+    font-family: "proxima_nova-light", sans-serif;
+    font-size: 1rem;
+    width: 100px;
+    margin-right: 1%;
+    padding: .75rem;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    }
+
+.participant-search select {
+    font-family: "proxima_nova-light", sans-serif;
+    font-size: 1rem;
+    position: relative;
+    width: 10%;
+    margin: 0 1%;
+    padding: .75rem;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    }
+
+.searchbtn {
+    font-family: "proxima_nova-bold", sans-serif;
+    font-size: .9rem;
+    position: relative;
+    display: inline-block;
+    width: 10%;
+    margin-right: 1%;
+    padding: .85rem;
+    color: white;
+    }
+
+#fsearchparticipant a:last-child {
+    margin-right: 0;
+    width: 12%;
+}
+
+.participant-table {
+	position: relative;
+	display: block;
+	width: 97.5%;
+	/*height: 20rem;*/
+	background-color: white;
+	margin: 0 1%;
+	border-radius: 6px;
+}
+
+.participant-table table { width: 100%; }
+.participant-table table tr:nth-child(odd) {
+	background-color: #EBF5FF;
+}
+
+.participant-table table th {
+	position: relative;
+	background-color: #1478b9;
+	color: white;
+	font-size: .9rem;
+	font-weight: 900;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+}
+
+.participant-table table th:first-child {
+	border-radius: 6px 0 0 0;
+}
+
+.participant-table table th:last-child {
+	border-radius: 0 6px 0 0;
+}
+
+.participant-table table td {
+	font-size: .75rem;
+	padding: .75rem 0;
+	text-align: center;
+}
+
+.pagination {
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 1rem;
+    border-top: 1px solid #EBF5FF;
+}
+
+.pagination ul {
+	text-align: center;
+	font-size: 1rem;
+}
+
+.pagination ul li {
+	display: inline-block;
+	text-align: left;
+}
+
+.pagination ul li a {
+	font-family: 'proxima_nova-bold', sans-serif;
+	font-size: .9rem;
+	font-style: bold;
+	padding: .5rem .75rem;
+    margin-right: 10px;
+    border-radius: 2px
+    }
+
+    .pagination ul li.current a {
+        background-color: #FFAF00;
+        color: #fff;
+        }
+
+    .pagination ul li a:hover {
+        background-color: #CDE6F7;
+        color: #115E9F
+        }
+
+/* ----------- Mobile ----------- */
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    .join-atau {
+        width: 100% !important;
+    }
+
+}
+
+
+/* ----------- iPad ------------------ */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .join-atau {
+        width: 100% !important;
+    }
+
+    .left-menu {
+        width: 60%;
+    }
+
+    .right-menu {
+        width: 40%;
+        padding-right: 0;
+    }
+
+    .games-page {
+        width: 90%;
+        font-size: 0;
+        margin: 4rem auto 2rem auto;
+        text-align: center;
+    }
+
+    .games-page .game,
+    .acc-start {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #wof {
+        width: 100%;
+        text-align: center;
+    }
+
+    #wof canvas {
+        margin: 0 auto;
+    }
+
+    .acc-start { text-align: center; }
+
+    .social a {
+        width: 100%;
+        margin: 0;
+        display: block;
+        margin-bottom: 1rem;
+        padding-left: 2.5rem;
+    }
+
+    .fb-like { margin: 1rem auto;}
+
+    .header .left-menu ul li a {
+        font-size: 1rem;
+        width: auto;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .participant-search input {
+        font-size: .85rem !important;
+        padding: .5rem;
+    }
+
+    #datepickerFrom,
+    #datepickerTo {
+        width: 80px;
+    }
+
+    .searchbtn {
+        width: auto;
+        font-size: .75rem !important;
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .participant-search input[type="search"] {
+        width: 18%;
+    }
+
+}
+
+
+/* Landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+    .participant-search input[type="search"] {
+        width: 22%;
+    }
+
+    #fsearchparticipant a:last-child {
+        padding-left: .5rem;
+        padding-right: .5rem
+    }
+
+}
+
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+
+
+/* Portrait */
+@media
+  (max-device-width: 800px)
+  and (orientation: portrait) {
+	.game, .acc-start {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+/* Landscape */
+@media
+  (max-device-width: 1280px)
+  and (orientation: landscape) {
+	#wof {
+        text-align: center;
+    }
+
+    #wof canvas {
+        margin: 0 auto;
+    }
+
+	.games-page {
+		margin: 8vh auto;
+	}
+}
+
